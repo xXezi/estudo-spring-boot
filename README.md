@@ -1,5 +1,5 @@
 ## Pacotes:
-  - #### produtosapi
+  - #### [produtosapi](https://github.com/xXezi/estudo-spring-boot/tree/main/produtosapi)
     - Criado um CRUD com Spring Boot, utilizando o banco de dados em memória H2 Database e também o Postman para testes de requisições API RESTful.
 
 ### Conhecimentos adquiridos:
