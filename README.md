@@ -1,5 +1,5 @@
 ### Tecnologias utilizadas
-  - Java
+  - Java (LTS 21)
   - Spring Boot
   - JPA / Hibernate
   - Maven
