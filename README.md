@@ -2,6 +2,9 @@
   - #### [produtosapi](https://github.com/xXezi/estudo-spring-boot/tree/main/produtosapi)
     - Criado um CRUD com Spring Boot, utilizando o banco de dados em memória H2 Database e também o Postman para testes de requisições API RESTful.
 
+  - #### [arquiteturaspring](https://github.com/xXezi/estudo-spring-boot/tree/main/arquiteturaspring)
+    - Pasta voltada para estudos sobre a arquitetura e estrutura do framework spring.
+
 ### Conhecimentos adquiridos:
   - Criar projetos utilizando Spring Initializr.
   - Estrutura de projeto Spring Boot.
