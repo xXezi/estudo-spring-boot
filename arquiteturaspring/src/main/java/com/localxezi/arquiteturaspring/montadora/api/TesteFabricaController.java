@@ -1,6 +1,7 @@
 package com.localxezi.arquiteturaspring.montadora.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ import com.localxezi.arquiteturaspring.montadora.Motor;
 public class TesteFabricaController {
 	
 	@Autowired
+	@Qualifier("motorTurbo")
 	private Motor motor;
 	
 	@PostMapping
