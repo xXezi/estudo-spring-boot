@@ -2,6 +2,7 @@ package com.localxezi.arquiteturaspring.montadora.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 import com.localxezi.arquiteturaspring.montadora.Motor;
 import com.localxezi.arquiteturaspring.montadora.TipoMotor;
@@ -9,7 +10,7 @@ import com.localxezi.arquiteturaspring.montadora.TipoMotor;
 @Configuration
 public class MontadoraConfiguration {
 	
-	@Bean(name = "motorAspirado")
+	@Bean(name = "motorAspirado")	
 	Motor motorAspirado() {
 		var motor = new Motor();
 		motor.setCavalos(120);
@@ -21,6 +22,7 @@ public class MontadoraConfiguration {
 	}
 	
 	@Bean(name = "motorEletrico")
+	@Primary
 	Motor motorEletrico() {
 		var motor = new Motor();
 		motor.setCavalos(110);
